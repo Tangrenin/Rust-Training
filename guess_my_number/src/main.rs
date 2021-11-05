@@ -8,6 +8,7 @@ fn main() {
     let mut rng = thread_rng();
     let nombre_secret: u32 = rng.gen_range(1..101);
 
+    // Instructions pour l'utilisateur
     println!("{}","\n\nDevine mon nombre ! (entre 1 et 100) \n\nSaisissez votre proposition : ".purple());
 
     loop {
